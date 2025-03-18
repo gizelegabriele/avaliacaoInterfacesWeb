@@ -1,7 +1,6 @@
 const Perfil = require('../models/perfil');
 const Aluno = require('../models/aluno');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+
 
 const criarPerfil = async (req, res) => {
   try {
@@ -35,26 +34,6 @@ const criarPerfil = async (req, res) => {
     res.status(500).json({ message: "Erro ao criar perfil", error });
   }
 };
-
-const login = async (req, res) => {
-  try {
-    const { matricula, senha } = req.body;
-    const perfil = await Perfil.findOne({ matricula });
-    if (!perfil) {
-      return res.status(404).json({ message: "Perfil não encontrado!" });
-    }
-  
-    const senhaValida = await perfil.verificarSenha(senha);
-    if (!senhaValida) {
-      return res.status(401).json({ message: "Senha inválida!" });
-    }
-  
-    res.json({ message: "Login realizado com sucesso!" });
-  } catch (error) {
-    res.status(500).json({ message: "Erro ao realizar login", error });
-    }
-  };
-
 
 const obterTodosPerfis = async (req, res) => {
   try {
@@ -106,4 +85,4 @@ const editarPerfil = async (req, res) => {
   }
 };
 
-module.exports = { criarPerfil, login, obterTodosPerfis, deletarPerfil, editarPerfil };
+module.exports = { criarPerfil, obterTodosPerfis, deletarPerfil, editarPerfil };

@@ -6,4 +6,7 @@ Essa avaliação consiste em aprimorar uma API existente, focando em robustez e 
 * Identificar relacionamentos entre entidades, 
 * Implementar autenticação com JWT e corrigir erros de compilação. 
 
-*Link do video (com explicação das alterações):* 
+*Video (com explicação das alterações):* 
+
+https://github.com/user-attachments/assets/264bcb03-7622-4d7e-b054-0b447221a0ba
+

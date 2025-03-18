@@ -8,5 +8,11 @@ Essa avaliação consiste em aprimorar uma API existente, focando em robustez e 
 
 *Video (com explicação das alterações):* 
 
-https://github.com/user-attachments/assets/264bcb03-7622-4d7e-b054-0b447221a0ba
+
+
+<video width="800" controls>
+  <source src="https://github.com/user-attachments/assets/699bb1c5-046c-4bb5-9521-acc401f7fb70" type="video/mp4">
+</video>
+https://github.com/user-attachments/assets/699bb1c5-046c-4bb5-9521-acc401f7fb70
+
 

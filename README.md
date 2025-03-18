@@ -7,7 +7,7 @@ Essa avaliação consiste em aprimorar uma API existente, focando em robustez e 
 * Implementar autenticação com JWT e corrigir erros de compilação.
 * Identificar/Criar mais relacionamentos 
 
-# 📌 Resumo do que foi aplicado:  
+#### 📌 Resumo do que foi aplicado:  
 
 #### ✅ Configuração e Estruturação  
 - Instalação das dependências essenciais.  
